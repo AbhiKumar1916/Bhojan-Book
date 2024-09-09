@@ -1,0 +1,53 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Reduced height */
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+.main {
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 3rem; /* Slightly smaller font size */
+  color: #ff6347;
+  margin: 0;
+}
+
+.main h2 {
+  font-size: 2.5rem; /* Slightly smaller font size */
+  color: #ffa07a;
+}
+
+.main h3 {
+  font-size: 1.8rem; /* Slightly smaller font size */
+  color: #2f4f4f;
+  margin: 0;
+}
+
+.main p {
+  font-size: 1.2rem; /* Slightly smaller font size */
+  color: #696969;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 2rem;
+  }
+  
+  .main h2 {
+    font-size: 1.8rem;
+  }
+  
+  .main h3 {
+    font-size: 1.2rem;
+  }
+  
+  .main p {
+    font-size: 1rem;
+  }
+}
